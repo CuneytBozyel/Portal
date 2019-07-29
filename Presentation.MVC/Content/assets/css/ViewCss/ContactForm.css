@@ -1,0 +1,25 @@
+﻿
+.hasValidation {
+        box-shadow: 1px 1px 2px 2px #ebccd1 !important;
+        background-color: #f2dede;
+        border-color: #ebccd1;
+    }
+
+    .errorLabel {
+        color: #ec7272;
+        margin-top: 5px;
+        font-size:12px;
+    }
+    .errorLabel2 {
+        color: #ec7272;
+        margin-top: 5px;
+        font-size:12px;
+    }
+
+    #ErrorMessage {
+        color: #ec7272;
+    }
+
+    #SuccessMessage {
+        color: #38ab33;
+    }

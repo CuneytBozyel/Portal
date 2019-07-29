@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-white">
+                <div class="panel-heading">
+                    <h4 class="panel-title">Record Form</h4>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading text-primary">
+                                    <i class="fa fa-user" aria-hidden="true"></i>&nbsp;
+                                    Customer Information
+                                </div>
+                                <div class="panel-body bg-gray">
+                                    <div class="form-group"><input class="form-control" id="name" name="name" placeholder="Customer Name" type="text" value=""></div>
+                                    <div class="form-group"><textarea class="form-control" rows="5" id="address" placeholder="Customer Address"></textarea></div>
+                                    <div class="form-group"><input class="form-control" id="phone" name="phone" placeholder="Customer Phone" type="text" value=""></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="panel panel-white">
+                                <div class="panel-heading text-danger">
+                                    <i class="fa fa-tablet" aria-hidden="true"></i>&nbsp;
+                                    Device Information
+                                </div>
+                                <div class="panel-body bg-gray">
+                                    <div class="form-group">
+                                        <select class="form-control" id="sel1">
+                                            <option>Choose Brand</option>
+                                            <option>General Mobile</option>
+                                            <option>Other Brand 1</option>
+                                            <option>Other Brand 2</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" id="sel1">
+                                            <option>Choose Model</option>
+                                            <option>General Mobile GM 4G</option>
+                                            <option>General Mobile GM 5</option>
+                                            <option>General Mobile GM 5 Plus</option>
+                                            <option>General Mobile GM 6</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group"><input class="form-control" id="name" name="name" placeholder="Serial Number" type="text" value=""></div>
+                                    <div class="form-group"><textarea class="form-control" rows="3" id="address" placeholder="Fault Explanation"></textarea></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer text-right">
+                    <button class="btn btn-primary btn-lg">Save</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
